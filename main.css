@@ -1,0 +1,133 @@
+* {
+    font-family: 'Rubik';
+}
+body {
+    background: url(fone.jpg);
+}
+
+header {
+    background: rgb(51, 98, 119);
+    height: 110px;
+    margin-bottom: 45px;
+}
+
+.enter {
+    font-size: 25px;
+    color: #ffffff;
+  
+}
+.avtorization a,
+.avtor a, .list a {
+    text-decoration: none;
+    color: inherit;
+}
+.avtorization {
+    position: absolute;
+    top: 35px;
+    right: 280px;
+    color: #ffffff;
+}
+
+.header_container {
+    display: flex;
+   
+}
+
+.block_logo {
+    position: absolute;
+    top: 0px;
+    margin-bottom: 0 auto;
+    left: 280px;
+}
+
+.logo {
+    font-family: Tahoma;
+    font-size: 37px;
+    color: rgb(0, 161, 0);
+
+}
+.stories {
+    font-size: 22px;
+}
+.by {
+    font-size: 12px;
+    color: black;
+}
+
+.avtor {
+    font-size: 17px;
+    color: rgb(161, 1, 1);
+}
+
+.about {
+    margin-top: 77px;
+    margin-left: 226px;
+    
+}
+
+.about_list a {
+    
+    text-decoration: none;
+    font-size: 15px;
+    color: #997a35;  
+}
+.about_list li {
+    list-style-type: none;
+}
+header li {
+    float: left;
+    padding: 15px;
+    
+}
+
+/* Main container */
+.main_container {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 20px;
+    background: rgba(180, 180, 180, 0.7);
+    
+ 
+}
+
+.main {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 2px solid black
+
+}
+
+.side {
+    width: 1100px;
+
+}
+
+.title {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.list {
+    list-style-type: none;
+    line-height: 30px;
+    padding-left: 10px;
+}
+footer {
+    width: 1100px;
+    background-color: rgba(49, 49, 47, 0.65);
+    margin: 0 auto;
+    padding-top: 1px;
+    padding-bottom: 50px;
+
+}
+footer li {
+    list-style-type: none;
+    float: right;
+    padding: 15px;
+    margin-bottom: 30px;
+
+}
