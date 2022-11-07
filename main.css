@@ -9,7 +9,9 @@ header {
     background: rgb(51, 98, 119);
     height: 110px;
     margin-bottom: 45px;
-}
+    position: sticky;
+    top: 0px;
+ }
 
 .enter {
     font-size: 25px;
